@@ -7,7 +7,7 @@
 body {
 	background: #f2f2f2;
 	font-family: 'Roboto', sans-serif;
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgb(4, 1, 14) 75%), url('bg.jpg');
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgb(4, 1, 14) 75%), url('../img/bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -72,4 +72,11 @@ h1 {
 .contenedor img.visible {
 	opacity: 1;
 	transform: scale(1) translateX(0);
+}
+nav{
+margin: 20px 40px 0px 40px;
+
+}
+.textcentro  {
+text-align:center;
 }
